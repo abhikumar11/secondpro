@@ -1,7 +1,6 @@
 import "./App.css";
 import Child1 from "./components/Child1";
 import { Child2 } from "./components/Child2";
-
 const App = () => {
   let info={
     name:"Ajay",
@@ -11,6 +10,7 @@ const App = () => {
   return (
     <div>
      <Child1 userinfo={info}/>
+     <Child2 userinfo={{...info}}/>
     </div>
   )
 }
