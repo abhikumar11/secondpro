@@ -3,10 +3,13 @@ import Child1 from "./components/Child1";
 import { Child2 } from "./components/Child2";
 
 const App = () => {
+  let info={
+    name:"Ajay",
+    contact:123
+  }
   return (
     <div>
-     <Child1 name="Data" age={23} city="Bhopal" contact={1234567890}/>
-     <Child2  city="Delhi" contact={123}/>
+     <Child1 userinfo={info}/>
     </div>
   )
 }

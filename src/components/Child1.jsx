@@ -1,10 +1,9 @@
 const Child1 = (props) => {
   return (
     <div>
-        <h2>{props.name}</h2>
-        <h2>{props.age}</h2>
-         <h2>{props.city}</h2>
-        <h2>{props.contact}</h2>
+      <h1>This is child1</h1>
+        <h2>{props.userinfo.name}</h2>
+        <h2>{props.userinfo.contact}</h2>
     </div>
   )
 }
