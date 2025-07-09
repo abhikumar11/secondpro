@@ -5,7 +5,8 @@ import { Child2 } from "./components/Child2";
 const App = () => {
   let info={
     name:"Ajay",
-    contact:123
+    contact:123,
+    city:"Bhopal"
   }
   return (
     <div>
