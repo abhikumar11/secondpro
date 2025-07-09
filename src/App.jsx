@@ -10,7 +10,6 @@ const App = () => {
   return (
     <div>
      <Child1 userinfo={info}/>
-     <Child2 userinfo={{...info}}/>
     </div>
   )
 }

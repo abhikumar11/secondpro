@@ -1,9 +1,10 @@
+import { Child2 } from "./Child2"
+
 const Child1 = (props) => {
   return (
     <div>
-      <h1>This is child1</h1>
-        <h2>{props.userinfo.name}</h2>
-        <h2>{props.userinfo.contact}</h2>
+      <h1 style={{ backgroundColor: "hotpink" }}>Child1</h1>
+      <Child2 userinfo={{...props.userinfo}}/>
     </div>
   )
 }
