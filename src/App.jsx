@@ -11,10 +11,10 @@ const App = () => {
   let name="Abhishek";
   return (
     <div>
-      <FcBearish/><FcBullish/>
+      <FcBearish fontSize={"50px"}/><FcBullish style={{color:"pink"}}/>
      <Child1 name={name}/>
     </div>
   )
 }
-
+//app->c1->c2->(c3,c4)->c5
 export default App
