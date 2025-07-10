@@ -1,6 +1,7 @@
 import "./App.css";
 import Child1 from "./components/Child1";
 import { Child2 } from "./components/Child2";
+import {FcBullish,FcBearish} from "react-icons/fc";
 const App = () => {
   let info={
     name:"Ajay",
@@ -10,6 +11,7 @@ const App = () => {
   let name="Abhishek";
   return (
     <div>
+      <FcBearish/><FcBullish/>
      <Child1 name={name}/>
     </div>
   )
