@@ -7,9 +7,10 @@ const App = () => {
     contact:123,
     city:"Bhopal"
   }
+  let name="Abhishek";
   return (
     <div>
-     <Child1 userinfo={info}/>
+     <Child1 name={name}/>
     </div>
   )
 }

@@ -1,11 +1,12 @@
-export const Child2 = ({userinfo}) => {
+import Child3 from "./Child3";
+
+export const Child2 = ({name}) => {
     
      return (
           <div>
-               <h1 style={{ backgroundColor: "yellow" }}>Child2</h1>
-               <h2>Name:{userinfo.name}</h2>
-               <h2>Contact:{userinfo.contact}</h2>
-               <h2>City:{userinfo.city}</h2>
+               <h1 style={{ backgroundColor: "yellow" }}>This is Child2</h1>
+               <Child3 name={name}/>
+               
           </div>
      );
 };
